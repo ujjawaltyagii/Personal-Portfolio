@@ -330,13 +330,12 @@ nav .fa-solid{
 @media only screen and (max-width: 600px){
     #header{
         background-image: url(images/10.jpg);
-        background-position: 65% 75%;
         
         
     }
     .header-text{
         margin-top: 20%;
-        font-size: 23px;
+        font-size: 16px;
     }
     .header-text h1{
         font-size: 30px;
