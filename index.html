@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Porfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6ea7d19efd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav><img src="images/3.png" class="logo" >
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p style="color: #4f4747">UI/UX Designer</p>
+            <h1>Hi, I'm <span>Ujjawal<br>Tyagi</span> From India</h1>
+        </div>
+    </div>
+</div> 
+<!-- --------about-------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/9.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About ME</h1>
+                <p>
+                    Hi !! I am a undergrad, currently in 3rd year of my college persuing B.Tech in CSE.<br>I am a good public speaker and I have anchored in various events. I have a keen interest in learning new skills and I love solving algorithm related problems.
+                    My technical expertise includes fluency in Scripting/Programming/Markup languages(C, C++, Python, CSS, MYSQL, HTML).<br><br>I have a past few experiences in UI/UX designing, I am proficient in Wire Framing and Prototype designing using FIGMA.
+                    As a hobby, adapting to Game Development(Unreal Engine 5); specially in Map or surroundings designing using blueprints and C++. 
+                </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links"onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                        <li><span>Web Development</span><br>Web app Development</li>
+                        <li><span>App Development</span><br>Building Android Apps</li>
+                        <li><span>Game Development</span><br>Unreal Engine 5 </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2022 - 2023</span><br>UI/UX Designing Course | Google</li>
+                        <li><span>2022</span><br>1st Runner up Real World Problem Solving @BinaryHacks + Special Mention for UI/UX design</li>
+                        <li><span>2022</span><br>@CodeWIthHarnoor - Designed an app for College students to find work opportunities</li>
+                        <li><span>2021</span><br>Build an website for online shopping with a list of latest released gadgets using API</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2020-2024</span><br>Bachelor Of Technology - CSE <br>Raj Kumar Goel Institute of Technology(AKTU), Ghaziabad, India</li>
+                        <li><span>2020</span><br>12th CBSE - 85%, <br>PADAMSHREE N.N.MOHAN PUBLIC SCHOOL - Ghaziabad, India</li>
+                        <li><span>2018</span><br>High School 10th CBSE - 92%, <br>PADAMSHREE N.N.MOHAN PUBLIC SCHOOL - Ghaziabad, India</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!------services----- -->
+<div id="services">
+<div class="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>
+                    Want an interactive website for your business or for personal use? Don't worry you are at right place. We can make a <b>Static or Dynamic Website</b> for you or even a <b>Portfolio Website</b> and that too at affordable price ;)
+                    <br><a href="web.html">Learn More</a>
+                </p>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>
+                    Want an Creative UI/UX design for your Website or App or ads ? Well, we can that too for you.
+                    <b>Wire Framing, Prototype designing</b> with multiple screens, <b>Custom Interfaces</b> and many more. 
+                     <br><a href="https://www.fiverr.com/share/BobpL7">Learn More</a>
+                </p>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>
+                    Want an <b>ready-to-use</b> App for your summer project ? or want an modifaction on your app or you need a partner for assisting you in building a App? Don't worry I've got your back. 
+                     <br><a href="app.html">Learn More</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<!---------poerfolio------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/5.png">
+                <div class="layer">
+                    <h3>AceBuddy</h3>
+                    <p>
+                        This App provides solution for finding opportunities to work for students.
+                    </p>
+                    <a href="https://www.figma.com/proto/xMCA8qDmnNRuiVu0KlnBFX/Figma-Mobile-Design?node-id=1%3A5&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A5"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/7.png">
+                <div class="layer">
+                    <h3>AniVoice</h3>
+                    <p>
+                        This App helps in rescuing Stray animals by giving information about VET & NGO near user(location based).
+                    </p>
+                    <a href="https://www.figma.com/proto/gcuA4QCPSsxKydsR7wRaaU/AniVoice?node-id=4%3A338&scaling=scale-down&page-id=0%3A1&starting-point-node-id=4%3A338"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/6.png">
+                <div class="layer">
+                    <h3>Online Shopping</h3>
+                    <p>
+                        This website helps in listing all newly released gadgets at one place category wise.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="projects.html" class="btn">See More</a>
+    </div>
+</div>
+
+<!------contact----->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>ujjawal2002tyagi@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>8851173308</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/ujjawal.tyagii?r=nametag"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/ujjawal-tyagi-9943a722b/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/(n)resume_updated.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © Ujjawal. Made by Ujjawal Tyagi <i class="fa-solid fa-hand-peace"></i></p>
+    </div>
+</div>
+
+
+<script>
+     
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbygxGZEDMYBuo0WU4AYIoEboV0dYw1-tl9wFj1Aipv8UvifiYg4xxsNuggsPntuoJZx/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function()
+            {
+              msg.innerHTML = ""  
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
