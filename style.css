@@ -320,7 +320,7 @@ form .btn2{
 .copyright i{
     color: #ff004f;
 }
-/*-----responsive CSS---*/ 
+/*---------------------------responsive CSS---------------------------------------*/ 
 nav .fas{
     display: none;
 }
@@ -329,14 +329,18 @@ nav .fa-solid{
 }
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(images/10.jpg);
+        background-image: url(images/rfnn.png);
         background-position: 65% 75%;
         
+
         
     }
+   
     .header-text{
-        margin-top: 20%;
+        margin-top: 70% ;
         font-size: 23px;
+        text-align: right;
+        
     }
     .header-text h1{
         font-size: 30px;
